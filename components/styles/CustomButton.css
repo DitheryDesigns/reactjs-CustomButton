@@ -1,0 +1,36 @@
+.customButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .customButton--small {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
+  .customButton--med {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .customButton--large {
+    font-size: 20px;
+    padding: 15px 30px;
+  }
+  
+  .customButton--primary {
+    background-color: #f3f3f3;
+    color: chocolate;
+  }
+  
+  .customButton--secondary {
+    color: #f3f3f3;
+    background-color: chocolate;
+  }
+  
+  .customButton--disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
